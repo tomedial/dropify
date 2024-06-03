@@ -1,0 +1,23 @@
+.ClientAvatarWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.ClientAvatar:hover {
+  box-shadow: 0 0 20px #9e9e9e;
+}
+
+.ClientAvatar {
+  width: 80px !important;
+  height: 80px !important;
+  background: rgba(255, 255, 255, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.ClientAvatarName {
+  margin-top: 10px;
+  color: white;
+}
