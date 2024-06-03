@@ -7,7 +7,7 @@ const useSocket = (url, onMessage, onError) => {
 
   useEffect(() => {
     socketRef.current = io(url, {
-      transports: ["polling"]
+      transports: ["websocket"]
     });
 
     socketRef.current.on("connect", () => {
